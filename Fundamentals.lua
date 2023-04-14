@@ -4,7 +4,7 @@
 
 <!-- Create a variable -->
 local var1 = "Hello Earth!"
-local var2 = "384,400"
+local var2 = 384,400
 <!-- Haha! Earth because LUA... :) Now seriously, declaring the variable local is an option, if not declared it will be considered global -->
 <!-- What does this mean? That I will see tomorrow and update this file -->
 
