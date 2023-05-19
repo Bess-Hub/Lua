@@ -5,9 +5,9 @@ local startTime = os.time()
 local rooms = {
   {
     name = "Class Room",
-    description = "There is a door to the north.",
+    description = " ",
     north = 2,
-    objects = { "blackboard", "clock" , "backpack", "desk", "chair", "fan", "jacket"}
+    objects = { "blackboard", "clock" , "backpack", "desk", "chair", "jacket", "window", "fan"}
   }
 }
 
@@ -27,19 +27,23 @@ local objects = {
   },
   desk = {
     description = "Your desk",
-    examine = ""
+    examine = "What a mess! Babei..."
   },
   chair = {
     description = "Your compi's chair",
     examine = "Ew, there is bubblegum on it. Not touching that, nothing to see here."
   },
    fan = {
-    description = "Could there be anything on this fan?",
+    description = "Could there be anything on the fan?",
     examine = "Shit... I cannot reach it."
   },
   jacket = {
     description = "This jacket is not yours...",
-    examine = "There is something in the pocket! It is a piece of paper that reads: 'A mother has 30 dollars to split between her two daughters, what time is it?"
+    examine = "There is something in the pocket! It is a piece of paper that reads: 'Una madre tiene EUR 30 para repartir entre sus dos hijas, ¿qué hora es?'"
+  },
+  window = {
+    description = "Let's take a look at the window.",
+    examine = "The weird woman with a hat... Ow there are my colleagues! HEY! They are laughing and pointing at their watches..."
   }
 }
 
