@@ -4,12 +4,21 @@ local questions = {}  -- Library of questions
 local currentQuestion  -- The current question being asked
 local score = {correct = 0, total = 0}  -- Score tracking
 local questionText = ""
+local bg = require('background')
 
 -- Load assets and initialize the game
 function love.load()
     -- Load the world map image
-    mapImage = love.graphics.newImage("world_map.png")  -- Replace with your map image
-    
+   -- mapImage = love.graphics.newImage("world_map.png")  -- RESTORE IN THE COMPUTER
+    --
+    function love.draw()
+        bg.draw()
+        local left = 40
+        local top = 200
+        if screenWidth < 500 or
+            screenHeight = 20
+    end
+        
     -- Initialize questions (location name, correct x, correct y)
     questions = {
         -- Oceans and Seas
