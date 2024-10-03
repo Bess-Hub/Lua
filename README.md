@@ -27,3 +27,10 @@ Now the game should run:
 ```
 lua game.lua
 ```
+# Main.lua
+
+For Main.lua you will need to run with LOVE2D.
+Downdload Main.lua and map.png
+Add them to a folder
+Download LOVE2D
+Drag the folder to LOVE2D icon
