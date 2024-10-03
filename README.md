@@ -29,8 +29,14 @@ lua game.lua
 ```
 # Main.lua
 
+Main.lua is a simple maritime geography quizz I have made on October 3rd 2024. Since I will be studying for ICS Exam I need to improve my knowledge of relevant maritime geography.
+
 For Main.lua you will need to run with LOVE2D.
-Downdload Main.lua and map.png
-Add them to a folder
-Download LOVE2D
-Drag the folder to LOVE2D icon
+
+1. Downdload Main.lua and map.png from this repository
+
+2. Add them to a folder
+
+3. Download LOVE2D
+
+4. If on MacBook simply drag the folder to LOVE2D icon
