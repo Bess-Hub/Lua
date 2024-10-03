@@ -19,7 +19,7 @@ local objects = {
   },
   clock = {
     description = "A clock on top of the blackboard.",
-    examine = "The clock is broken. But you can't see the time, keep on looking you might find a clue."
+    examine = "The clock is broken. But you can't see the time, keep on looking you might find a clue on what time it is marking."
   },
   backpack = {
     description = "Your backpack",
@@ -27,7 +27,7 @@ local objects = {
   },
   desk = {
     description = "Your desk",
-    examine = "What a mess! Babei..."
+    examine = "What a mess! Let's clean this up..."
   },
   chair = {
     description = "Your compi's chair",
@@ -38,12 +38,12 @@ local objects = {
     examine = "Shit... I cannot reach it."
   },
   jacket = {
-    description = "This jacket is not yours...",
-    examine = "There is something in the pocket! It is a piece of paper that reads: 'Una madre tiene EUR 30 para repartir entre sus dos hijas, ¿qué hora es?'"
+    description = "This jacket is not yours...Maybe someone left it for me?!",
+    examine = "BINGO! There is something in the pocket! It is a piece of paper that reads: 'Una madre tiene EUR 30 para repartir entre sus dos hijas, ¿qué hora es?'"
   },
   window = {
     description = "Let's take a look at the window.",
-    examine = "The weird woman with a hat... Ow there are my colleagues! HEY! They are laughing and pointing at their watches..."
+    examine = "The weird woman with a hat... Ow there are my colleagues! HEY! They are laughing and pointing at their watches... What am I missing?"
   }
 }
 
